@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Николай Коновалов](https://up.htmlacademy.ru/htmlcss-individual/1/user/2145995).
-* Наставник: [Малик Киров](https://htmlacademy.ru/profile/id17217).
+* Наставник: .
 
 ---
 
