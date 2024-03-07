@@ -4,7 +4,7 @@
 * Наставник: [Малик Киров](https://htmlacademy.ru/profile/id17217)
 
 ---
-111
+
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
