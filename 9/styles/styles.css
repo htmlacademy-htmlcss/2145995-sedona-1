@@ -1,0 +1,270 @@
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+
+
+
+body {
+  margin: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navigation-list,
+.advantages-list,
+.footer-list,
+.breadcrumbs,
+.catalog-filter-list,
+
+.hotel-list,
+.pagination {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.page-header{
+  display: flex;
+  width: 1060px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+
+.page-logo {
+  margin-right: 30px;
+  z-index: 2;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation-item-counter {
+  position: absolute;
+  bottom: 51px;
+  left: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  line-height: 13px;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/green-ellipse.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 345px;
+}
+
+.navigation-user {
+  max-width: 264px;
+}
+
+.main-index {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/index-background-top.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.main-container {
+  flex-grow: 1;
+  padding-top: 51px;
+  margin-top: -5px;
+  z-index: 1;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 82px;
+}
+
+.advantages::before  {
+  content: "";
+  display: block;
+  width: 1200px;
+  height: 57px;
+  background-image: url("../images/vector-bottom.svg");
+  background-repeat: no-repeat;
+  margin-top: -55px;
+}
+
+
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.advantages-wrapper {
+  display: flex;
+}
+
+
+.newsletter1 {
+  color: #ffffff;
+  background-color: #83B3D3;
+  background-image: url("../images/index-background-bottom.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 411px;
+}
+
+
+.main-inner {
+  color: #160d0d;
+  background-color: #ffffff;
+  background-image: url("../images/catalog-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  padding-top: 35px;
+}
+
+
+.catalog-filter-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  padding-bottom: 28px;
+}
+
+
+.button-tile {
+  background-color: #ffffff;
+  background-image: url("../images/mode-tile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 8px;
+}
+
+.button-slideshow {
+  background-color: #ffffff;
+  background-image: url("../images/mode-slideshow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 8px;
+}
+
+.button-list {
+  background-color: #ffffff;
+  background-image: url("../images/mode-list.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+.hotel-card-button {
+  color: #ffffff;
+  background-color: #756257;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20.7px;
+  font-weight: 700;
+
+}
+
+
+.found {
+  color: #000000;
+  background-color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  padding: 44px 72px 52px;
+  }
+.buttons-show-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  padding: 26px 72px 30px;
+}
+
+
+
+
+.catalog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  padding: 26px 72px 30px;
+}
+
+.hotels {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 345px;
+}
+
+.pagination {
+  display: flex;
+  margin-right: 290px;
+}
+
+
+.newsletter {
+
+  align-items: center;
+  text-align: center;
+
+}
+
+
+
+.page-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  padding: 26px 72px 30px;
+}
