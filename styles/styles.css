@@ -174,7 +174,7 @@ body {
 }
 
 .advantages-header {
-  color: #000000;
+  color: #000000
   background-color: #ffffff;
   text-align: center;
   display: flex;
@@ -418,7 +418,7 @@ body {
 
 
 .found {
-  color: #000000;
+  color: #000000
   background-color: #ffffff;
 
   display: flex;
@@ -431,7 +431,7 @@ body {
 
 /* КАТАЛОГ */
 .catalog {
-  color: #0000;
+  color: #000000
   align-items: center;
   justify-content: space-between;
   width: auto;
@@ -440,13 +440,13 @@ body {
 
 .inner-background {
   display: flex;
-  color: #0000;
+  color: #000000
   background-color: #ffffff;
 
 }
 
 .buttons-show-wrapper {
-  color: #0000;
+  color: #000000
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -455,7 +455,7 @@ body {
 }
 
 .hotels {
-  color: #0000;
+
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -465,15 +465,16 @@ body {
 }
 
 .hotels-items  {
-  color: #0000;
+
   height: 438px;
 }
 
-.captiions {
-  color: #0000;
+.captions {
+  color: #000000
 
   font-size: 24px;
 }
+
 .hotel-card-stars {
   display: block;
   height: 17px;
@@ -486,7 +487,7 @@ body {
 }
 
 .hotel-card-rating {
-  color: #000000;
+  color: #000000
   background-color: #F2F2F2;
   font-size: 16px;
   line-height: 20.7px;
