@@ -43,48 +43,69 @@
 
 
           <main class="main-inner main-container">
-            <div class="main-container">
-               <header class="main-header">
-                <h1 class="visually-hidden">Гостинницы  Седоны</h1>
-                <nav class="main-navigation">
-                <a class="Home"   href="index.html"></a>
-                <img src="#" alt="arrow">
-                <a class="breadcrumbs-link" href="#">Гостиницы</a>
+            <div class="search">
+              <div class="main-container">
+                <header class="main-header">
+                 <h1 class="visually-hidden">Гостиницы  Седоны</h1>
+                 <ul class="breadcrumbs">
+                  <li class="breadcrumbs-item">
+                    <a class="breadcrumbs-link" href="index.html">
+                      <span class="visually-hidden">Главная</span>
+                    </a>
+                    <svg class="breadcrumbs-icon"
+                        width="5"
+                        height="8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        role="img">
+                        <path d="m4.79998 3.60005-3.8-3.4c-.2-.2-.6-.2-.9 0-.3.2-.2.6 0 .8l3.3 3-3.2 3c-.2.2-.2.6 0 .8 0 .1.3.2.4.2.1 0 .3-.1.4-.2l3.8-3.4c.3-.2.3-.6 0-.8Z"
+                        fill="#fff"/>
+                    </svg>
+                  </li>
+                  <li class="breadcrumbs-item">
+                    <a class="breadcrumbs-link" href="#">Гостиницы</a>
+                  </li>
+                </ul>
 
-              </header>
-             </div>
-           <section class="advacned-settings">
-            <div class="container">
-                <div class="infrastructure-container">
-                  <ul class=infrastructure>
-                    <li>Инфраструктура</li>
-                    <li>Бассейн</li>
-                    <li>Парковка</li>
-                    <li>Wi-Fi</li>
-                  </ul>
-                </div>
-                <div class="housing-container">
-                  <ul class=Тип жилья>
-                    <li>Тип жилья</li>
-                    <li>Гостиница</li>
-                    <li>Мотель</li>
-                    <li>Апартаменты</li>
-                  </ul>
-                </div>
-                <div class="filter-range">
-                    <span class="hotel-card-type">Стоимость, ₽</span>
-                    <span class="hotel-card-price">0 ₽ от</span>
-                    <span class="hotel-card-price">9000 ₽ до</span>
-                    <button class="hotel-card-button button" type="button">ПРИМЕНИТЬ</button>
-                    <a class="hotel-card-button button" href="#">СБРОСИТЬ</a>
-                </div>
+                </header>
               </div>
+            <section class="advacned-settings">
+             <div class="container">
+                 <div class="infrastructure-container">
+                   <ul class=infrastructure>
+                     <li>Инфраструктура</li>
+                     <li>Бассейн</li>
+                     <li>Парковка</li>
+                     <li>Wi-Fi</li>
+                   </ul>
+                 </div>
+                 <div class="housing-container">
+                   <ul class=Тип жилья>
+                     <li>Тип жилья</li>
+                     <li>Гостиница</li>
+                     <li>Мотель</li>
+                     <li>Апартаменты</li>
+                   </ul>
+                 </div>
+                 <div class="filter-range">
+                     <span class="hotel-card-type">Стоимость, ₽</span>
+                     <span class="hotel-card-price">0 ₽ от</span>
+                     <span class="hotel-card-price">9000 ₽ до</span>
+                     <button class="hotel-card-button button" type="button">ПРИМЕНИТЬ</button>
+                     <a class="hotel-card-button button" href="#">СБРОСИТЬ</a>
+                 </div>
+               </div>
+
+
+
+            </div>
+
             </section>
 
             <section class="catalog">
               <div class="inner-background">
               <div class="sort-container">
-                <p class="found">Найдено гостиниц: 38</p>
+                <p class="found">НАЙДЕНО ГОСТИНИЦ: 38</p>
               </div>
               <select class="select-control" aria-label="Сортировка" required>
                 <option value="cheap">Сначала дешёвые</option>
@@ -109,13 +130,13 @@
                   <img class="hotel-card-image" src="images/hotel-amara.jpg" width="299" height="206" alt="Amara Resort & Spa.">                  </p>
                   <div class="hotels-container">
                     <h3>
-                      <a class="captions" href="#">Amara Resort & SPA</a>
+                      <a class="captions" href="#">Amara Resort & Spa</a>
                     </h3>
                     <div class="type-container">
-                      <p class="type">Гостиница</p>++
+                      <p class="type">Гостиница</p>
                       <p class="price">от 4000 Р.</p>
-                      <a class="hotel-button hotel-button-blue" href="#">Подробнее</a>
-                      <a class="hotel-button hotel-button-brown" href="#">В избранное</a>
+                      <a class="hotel-button hotel-button-blue" href="#">ПОДРОБНЕЕ</a>
+                      <a class="hotel-button hotel-button-brown" href="#">В ИЗБРАННОЕ</a>
                     </div>
                   </div>
                   <div class="stars stars-4">
@@ -131,13 +152,13 @@
                   <img class="hotel-card-image" src="images/hotel-villas.jpg" width="299" height="206" alt="Villas at Poco Diablo.">
                   <div class="hotels-container">
                     <h3>
-                    <a class="captions" href="#">Villas At Poco Diablo</a>
+                    <a class="captions" href="#">Villas at Poco Diablo</a>
                     </h3>
                     <div class="type-container">
                       <p class="type">Гостиница</p>
                       <p class="price">от 5000 Р.</p>
-                      <a class="hotel-button hotel-button-brown href="#">Подробнее</a>
-                      <a class="hotel-button hotel-button-green" href="#">В избранном</a>
+                      <a class="hotel-button hotel-button-brown href="#">ПОДРОБНЕЕ</a>
+                      <a class="hotel-button hotel-button-green" href="#">В ИЗБРАННОМ</a>
                     </div>
                   </div>
                   <div class="stars stars-4">
@@ -153,14 +174,14 @@
                   <img class="hotel-card-image" src="images/hotel-desert.jpg" width="299" height="206" alt="Desert Quail Inn.">
                   <div class="hotels-container">
                     <h3>
-                      <a class="captions" href="#">Desert Quail INN</a>
+                      <a class="captions" href="#">Desert Quail Inn</a>
                     </h3>
 
                     <div class="type-container">
                       <p class="type">Гостиница</p>
                       <p class="price">от 2500Р.</p>
-                      <a class="hotel-button hotel-button-brown" href="#">Подробнее</a>
-                      <a class="hotel-button hotel-button-blue" href="#">В избранное</a>
+                      <a class="hotel-button hotel-button-brown" href="#">ПОДРОБНЕЕ</a>
+                      <a class="hotel-button hotel-button-blue" href="#">В ИЗБРАННОЕ</a>
                     </div>
                   </div>
                   <div class="stars stars-3">
@@ -176,13 +197,13 @@
                   <img class="hotel-card-image" src="images/hotel-green-tree.jpg" width="299" height="206" alt="GreenTree Inn.">
                   <div class="hotels-container">
                     <h3>
-                    <a class="captions" href="#">GreenThree INN</a>
+                    <a class="captions" href="#">GreenThree Inn</a>
                     </h3>
                     <div class="type-container">
                       <p class="type">Гостиница</p>
                       <p class="price">от 1500Р.</p>
-                      <a class="hotel-button hotel-button-brown href="#">Подробнее</a>
-                      <a class="hotel-button hotel-button-blue" href="#">В избранное</a>
+                      <a class="hotel-button hotel-button-brown href="#">ПОДРОБНЕЕ</a>
+                      <a class="hotel-button hotel-button-blue" href="#">В ИЗБРАННОЕ</a>
                     </div>
                   </div>
                   <div class="stars stars-2">
@@ -220,10 +241,10 @@
 
             <section class="newsletter ">
               <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-                <h2 class="newsletter-description">Подпишитесь на рассылку</h2>
+                <h2 class="newsletter-description">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
                 <p class="newsletter-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
                 <input type="email" id="email" name="email" placeholder="Ваш e-mail" required>
-                <button type="submit">Подписаться</button>
+                <button type="submit">ПОДПИСАТЬСЯ</button>
                </form>
             </section>
           </main>
