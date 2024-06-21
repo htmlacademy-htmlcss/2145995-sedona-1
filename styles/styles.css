@@ -429,9 +429,9 @@ body {
 
 
 
-
+/* КАТАЛОГ */
 .catalog {
-
+  color: #0000;
   align-items: center;
   justify-content: space-between;
   width: auto;
@@ -440,11 +440,13 @@ body {
 
 .inner-background {
   display: flex;
+  color: #0000;
   background-color: #ffffff;
 
 }
 
 .buttons-show-wrapper {
+  color: #0000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -453,6 +455,7 @@ body {
 }
 
 .hotels {
+  color: #0000;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -462,11 +465,13 @@ body {
 }
 
 .hotels-items  {
+  color: #0000;
   height: 438px;
 }
 
 .captiions {
-  color: #000000;
+  color: #0000;
+
   font-size: 24px;
 }
 .hotel-card-stars {
